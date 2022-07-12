@@ -1,0 +1,32 @@
+/*high , medium , low, no priority*/
+  [
+    {
+      "id": 0,
+      "tittle": "Tarea 1", 
+      "description": "Descripcion 1",
+      "priorityLevel":"high", 
+      "finalized": false 
+    },
+    {
+      "id": 1,
+      "tittle": "Tarea 2",
+      "description": "Descripcion 2",
+      "priorityLevel":"low", 
+      "finalized": false
+    },
+    {
+      "id": 2,
+      "tittle": "Tarea 3",
+      "description": "Descripcion 3",
+      "priorityLevel":"no priority", 
+      "finalized": false
+    },
+    {
+      "id": 3,
+      "tittle": "Tarea 4",
+      "description": "Descripcion 4",
+      "priorityLevel":"medium",
+      "finalized": false
+    }
+  ]
+
