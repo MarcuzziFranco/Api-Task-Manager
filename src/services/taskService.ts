@@ -6,4 +6,8 @@ export const getTasks = (): Array<TaskEntry> => {
   return tasks;
 };
 
-export const addTask = (): undefined => undefined;
+export const addTask = (task: TaskEntry): void => {
+  taskData.push(task);
+
+  console.log(taskData);
+};

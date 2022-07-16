@@ -8,7 +8,8 @@ router.get("/", (_req, res) => {
 });
 
 router.post("/", (_req, res) => {
-  addTask();
+  console.log();
+  addTask(_req.body);
   res.send("Create new task");
 });
 
